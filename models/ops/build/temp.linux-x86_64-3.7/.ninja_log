@@ -1,0 +1,4 @@
+# ninja log v5
+0	5297	1674201187238093177	/home/gwj/Intussption_classification/models/ops/build/temp.linux-x86_64-3.7/home/gwj/Intussption_classification/models/ops/src/cpu/ms_deform_attn_cpu.o	85fdc5b5b5501e6e
+0	15909	1674201197850281633	/home/gwj/Intussption_classification/models/ops/build/temp.linux-x86_64-3.7/home/gwj/Intussption_classification/models/ops/src/cuda/ms_deform_attn_cuda.o	f1cea3b31a614166
+0	18454	1674201200390326431	/home/gwj/Intussption_classification/models/ops/build/temp.linux-x86_64-3.7/home/gwj/Intussption_classification/models/ops/src/vision.o	7b724530416914ae

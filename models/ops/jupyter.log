@@ -1,0 +1,30 @@
+nohup: ignoring input
+[E 18:11:06.789 NotebookApp] Exception while loading config file /home/gwj/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/gwj/miniconda3/envs/tf2/lib/python3.7/site-packages/traitlets/config/application.py", line 738, in _load_config_files
+        config = loader.load_config()
+      File "/home/gwj/miniconda3/envs/tf2/lib/python3.7/site-packages/traitlets/config/loader.py", line 614, in load_config
+        self._read_file_as_dict()
+      File "/home/gwj/miniconda3/envs/tf2/lib/python3.7/site-packages/traitlets/config/loader.py", line 646, in _read_file_as_dict
+        exec(compile(f.read(), conf_filename, 'exec'), namespace, namespace)
+      File "/home/gwj/.jupyter/jupyter_notebook_config.py", line 121
+        c.NotebookApp.allow_remote_access = True
+        ^
+    IndentationError: unexpected indent
+[I 18:11:07.061 NotebookApp] Serving notebooks from local directory: /home/gwj/Intussption_classification/models/ops
+[I 18:11:07.061 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 18:11:07.061 NotebookApp] http://localhost:8888/?token=12db12fedb5e4baebf838bb235bb1088cb0ed9f01aa1c07f
+[I 18:11:07.061 NotebookApp]  or http://127.0.0.1:8888/?token=12db12fedb5e4baebf838bb235bb1088cb0ed9f01aa1c07f
+[I 18:11:07.061 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:11:07.066 NotebookApp] No web browser found: could not locate runnable browser.
+[C 18:11:07.066 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/gwj/.local/share/jupyter/runtime/nbserver-479405-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=12db12fedb5e4baebf838bb235bb1088cb0ed9f01aa1c07f
+     or http://127.0.0.1:8888/?token=12db12fedb5e4baebf838bb235bb1088cb0ed9f01aa1c07f
+Unable to load extension: pydevd_plugins.extensions.types.pydevd_plugin_pandas_types
+[C 18:13:10.737 NotebookApp] received signal 15, stopping
+[I 18:13:10.738 NotebookApp] Shutting down 0 kernels
+[I 18:13:10.739 NotebookApp] Shutting down 0 terminals
